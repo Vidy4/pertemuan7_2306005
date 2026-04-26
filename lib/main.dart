@@ -26,22 +26,28 @@ class ProductPage extends StatefulWidget {
 class ProductPageState extends State<ProductPage> {
   List<Product> products = [
     Product(
-      name: "Case Laptop",
+      name: "Laptop",
       price: 100000,
       imageUrl:
-          "https://via.placeholder.com/150", // contoh gambar
+          "https://picsum.photos/id/2/367/267", 
     ),
     Product(
-      name: "Case HP",
+      name: "HP",
       price: 200000,
       imageUrl:
-          "https://via.placeholder.com/150",
+          "https://picsum.photos/id/160/367/267",
     ),
     Product(
-      name: "Case Tablet",
+      name: "Kamera",
       price: 300000,
       imageUrl:
-          "https://via.placeholder.com/150",
+          "https://picsum.photos/id/250/367/267",
+    ),
+    Product(
+      name: "Tablet",
+      price: 3000000,
+      imageUrl:
+          "https://picsum.photos/id/341/367/267",
     ),
   ];
 
